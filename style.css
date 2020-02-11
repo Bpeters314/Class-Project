@@ -1,25 +1,72 @@
+.intro{
+  font-weight: 400;
+  color:#f4eae9
+
+}
+
+.intro{
+background-repeat: no-repeat;
+background-image: url("../images/palms.jpeg");
+background-size: cover;
+}
+
+
 
   .nav-link:hover{
-      color:#ffffff;
+      color:#fffff;
 
 
   }
 
   .nav-item:hover{
       text-decoration: underline;
-      text-decoration-color: White;
+      text-decoration:#efefef;
   }
 
 
-  .title{
-    background-image: url(../Images/palms.jpeg);no-repeat center;
-    background-size: cover;
-    height: 800px;
-    width: 100%;
+  .container {
+    width: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
+/* Top left text */
+.top-left {
+  text-align: left;
+  position:;
+  top: 8px;
+  left: 16px;
+}
 
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
 
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
   .text{
@@ -38,7 +85,7 @@
     margin-right: 5%;
 }
 
-#home-container{
+.home-container{
     margin-top: 5%;
 
 }
@@ -85,10 +132,10 @@ h6{
     margin-bottom: 1px;
 }
 
-#contact{
-    background: url("../Images/footerclouds.jpeg") no-repeat center;
+.contact{
+    background: url("../images/footerclouds.jpeg") no-repeat center;
     background-size: cover;
-    color: pink;
+    color:pink;
     padding: 5%;
     font-family: Georgia, serif;
 }
@@ -96,10 +143,6 @@ h6{
 h6{
     text-transform: uppercase;
     padding-bottom: 5%;
-}
-
-.contact{
-    color: pink;
 }
 
 #contactLine{
@@ -111,7 +154,7 @@ h6{
     color:
 }
 
-#footer{
+.footer{
     padding-top: 3%;
 }
 
